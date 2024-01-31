@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khant Htut Zin</title>
+    <!-- icon  -->
+    <link rel="icon" href="./images/LogoBlk.png" sizes="20x20">
+    <!-- bootstrap -->
+    <link href="./src/bs/css/bootstrap.min.css" rel="stylesheet" >
+    <!-- css  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- modal  1-->
+    <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">New message</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="mb-3">
+                  <label for="recipient-name" class="col-form-label">Name:</label>
+                  <input type="text" class="form-control" id="recipient-name">
+                </div>
+                <div class="mb-3">
+                    <label for="recipient-name" class="col-form-label">Email:</label>
+                    <input type="email" class="form-control" id="recipient-email">
+                </div>
+                <div class="mb-3">
+                  <label for="message-text" class="col-form-label">Message:</label>
+                  <textarea class="form-control" id="message-text"></textarea>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Send message</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- modal  1-->
+
+    <!-- modal 2  -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">About me</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Junior Frontend Developer with a strong
+                understanding of HTML, CSS, JavaScript, jQuery,
+                Bootstrap, and MySQL. Proven ability to quickly adapt
+                to new software and technologies, as well as a
+                dedication to following instructions and succeeding
+                in a team setting. To keep up with the ever-changing
+                tech scene, I'm actively extending my knowledge of
+                JSON, Firebase, ES6, and React. Despite my minimal
+                experience, I offer a motivated and results-oriented
+                approach, ready for long-term commitment and
+                focused to contribute successfully to a collaborative
+                team while making significant progress in my
+                professional development.
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- modal 2 -->
+    
+    <header>
+        <!-- Start Nav Bar  -->
+        <div class="container mt-3">
+
+            <div class="navbar navbar-expand-lg">
+                <a href="index.html" class="navbar-brand">
+                    <h2 class="display-5 text-uppercase" style="font-family:'Josefin Sans', sans-serif;">Khant</h2>
+                </a>
+
+                <button class="navbar-toggler navbuttons" data-bs-toggle="collapse" data-bs-target="#nav">
+                    <div class="bg-dark lines1"></div>
+                    <div class="bg-dark lines2"></div>
+                    <div class="bg-dark lines3"></div>
+                </button>
+
+                <div id="nav" class="navbar-collapse collapse justify-content-end" style="font-family: 'Nunito', sans-serif;">
+                    <ul class="navbar-nav">
+                        <li class="navbar-item"><a href="javascript:void(0);" class="nav-link fw-bold ms-3 fs-5" data-bs-toggle="modal" data-bs-target="#exampleModal">About me</a></li>
+                        <li class="navbar-item"><a href="javascript:void(0);"><button type="button" class="btn rounded-5 btn-lg" data-bs-toggle="modal" data-bs-target="#Modal" data-bs-whatever="Khant Htut Zin">Say Hello</button></a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <!-- End Nav Bar  -->
+    </header>
+
+    <!-- Start First Intro  -->
+      <section class="body-section1">
+
+        <div class="container section1">
+
+            <div class="justify-content-center text-center">
+                <div class="">
+                    <h3 class="display-4 animate-charcter" style="font-family: 'Josefin Sans', sans-serif;">Junior Frontend Developer</h3>
+                    <h4 style="font-family: 'Dosis', sans-serif;">I code beautifully simple things, and I love what I do.</h4>
+                </div>
+            </div>
+
+        </div>
+
+            <!-- Start Banner  -->
+            <div class="banner">
+                <div class="text-center">
+                    <img src="./images/LogoBlk.png" class="mylogo" width="300" alt="logo1">
+                    <!-- <img src="./images/logoppp.png" class="mylogo" width="300" alt="logo1"> -->
+                </div>
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#8A2BE2" fill-opacity="1" d="M0,64L48,80C96,96,192,128,288,133.3C384,139,480,117,576,128C672,139,768,181,864,208C960,235,1056,245,1152,208C1248,171,1344,85,1392,42.7L1440,0L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg> -->
+                <!-- <div class="svg-wave">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="svg"><path fill="#8A2BE2" fill-opacity="1" d="M0,96L48,90.7C96,85,192,75,288,101.3C384,128,480,192,576,213.3C672,235,768,213,864,208C960,203,1056,213,1152,197.3C1248,181,1344,139,1392,117.3L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+                </div> -->
+            </div>
+          <!-- end banner  -->
+
+      </section> 
+  <!-- End First Intro  -->
+
+
+
+
+
+
+
+    <!-- jquery  -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <!-- bootstrap -->
+    <script src="./src/bs/js/bootstrap.min.js"></script>
+    <!-- js  -->
+    <script src="app.js"></script>
+
+</body>
+</html>
