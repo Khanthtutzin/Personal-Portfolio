@@ -57,6 +57,20 @@ body{
     color: #fff;
 }
 
+.resume button{
+    width: 80px;
+    color: var(--bluepurple-color);
+    border-color: var(--bluepurple-color);
+    border-radius: 25px;
+}
+
+.resume button:hover{
+    width: 80px;
+    background-color: var(--bluepurple-color);
+    color: #fff;
+    border-radius: 25px;
+}
+
 .animate-charcter {
     text-transform: uppercase;
     background-image: linear-gradient(
